@@ -4,7 +4,7 @@ public class evenTested{
     public even mp = new even();
     @Test
     public void Test1(){
-        int beta = 3;
+        int beta = 2;
         assertEquals(true, mp.evenTest(beta));
     }
 }
